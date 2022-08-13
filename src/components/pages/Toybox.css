@@ -1,0 +1,647 @@
+.toybox{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.toybox #background{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.toybox #background p{
+    font-size: 18em;
+    font-family: 'Anton-Regular';
+    opacity: 15%;
+    color: white;
+}
+
+.toybox h1{
+    color: white;
+    font-size: 10em;
+    font-family: 'Anton-Regular';
+    margin-left: 100px;
+    margin-bottom: 50px;
+    letter-spacing: -5px;
+   
+}
+
+.faqs{
+    display: flex;
+    justify-content: center;
+}
+
+.toybox-left{
+    width: 44%;
+}
+
+.toybox-right{
+    width: 44%;
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+    position: relative;
+    z-index: 2;
+}
+
+.toybox #background p{
+    margin-top: -190px;
+}
+
+.toybox-right h4, .toybox-right svg{
+    margin-left: 150px;
+}
+.toybox-right h4{
+    font-size: 4.7em;
+    font-family: 'Anton-Regular';  
+}
+
+.accordion-item{
+    background-color: transparent;
+}
+
+#hide{
+    display: none;
+    animation: fadeOut;
+    animation-duration: 1.5s;
+}
+.accordion{
+    margin-bottom: 80px;
+}
+
+.accordion-head button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.accordion-head{
+    color: white;
+    font-family: 'Anton-Regular';
+    font-size: 1.7em;
+}
+
+.accordion-body{
+    color: white;
+    font-family: 'OpenSauceOne-SemiBold';
+    font-size: 1.1em;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+@media screen and (max-width: 5500px) and (min-height: 2880px) {
+    .toybox{
+        margin-top: 100px;
+    }
+
+    .toybox h1{
+        font-size: 30em;
+        margin-left: 250px;
+    }
+    .accordion-head{
+        font-size: 4.5em;
+    }
+
+    .accordion-body{
+        font-size: 3.5em;
+    }
+    .accordion{
+        margin-bottom: 250px;
+    }
+
+    .toybox-right h4{
+        font-size: 10em;
+    }
+
+    .toybox #background{
+        right: 0;
+        top: 0;
+    }
+
+    .toybox #background p {
+        font-size: 50em;
+        margin-top: -400px;
+    }
+}
+@media screen and (max-width: 4500px) and (min-height: 2304px) {
+    .toybox{
+        margin-top: 100px;
+    }
+
+    .toybox h1{
+        font-size: 20em;
+        margin-left: 200px;
+        margin-bottom: 130px;
+    }
+    .accordion-head{
+        font-size: 3.5em;
+    }
+
+    .accordion-body{
+        font-size: 2.5em;
+    }
+    .accordion{
+        margin-bottom: 170px;
+    }
+
+    .toybox-right h4{
+        font-size: 12em;
+    }
+
+    .toybox #background{
+        right: 0;
+        top: 0;
+    }
+
+    .toybox #background p {
+        font-size: 40em;
+        margin-top: -400px;
+    }
+}
+
+@media screen and (max-width: 4000px) and (min-height: 2160px) {
+    .toybox{
+        margin-top: 100px;
+    }
+
+    .toybox h1{
+        font-size: 20em;
+        margin-left: 200px;
+        margin-bottom: 120px;
+    }
+    .accordion-head{
+        font-size: 3.5em;
+    }
+
+    .accordion-body{
+        font-size: 2.5em;
+    }
+    .accordion{
+        margin-bottom: 170px;
+    }
+
+    .toybox-right h4{
+        font-size: 10em;
+    }
+
+    .toybox #background{
+        right: 0;
+        top: 0;
+    }
+
+    .toybox #background p {
+        font-size: 40em;
+        margin-top: -400px;
+    }
+}
+
+@media screen and (max-width: 2600px) and (min-height: 1440px) {
+    .toybox{
+        padding-bottom: 200px;
+    }
+    .toybox h1{
+        font-size: 14.5em;
+        margin-left: 130px;
+        margin-bottom: 90px;
+    }
+
+    .accordion-head{
+        font-size: 2.2em;
+    }
+
+    .accordion-body{
+        font-size: 1.5em;
+    }
+
+    .accordion{
+        margin-bottom: 130px;
+    }
+
+    .toybox-right h4{
+        font-size: 8em;
+    }
+
+    .toybox #background{
+        height: 100%;
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 24em;
+        margin-top: -220px;
+    }
+}
+@media screen and (max-width: 2000px) and (min-height: 1080px) {
+    .accordion{
+        margin-bottom: 100px;
+    }
+
+    .toybox #background{
+        top: 0%;
+        right: 0%;
+        overflow: hidden;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1700px) and (min-height: 1050px) {
+    .accordion-head{
+        font-size: 1.7em;
+    }
+
+    .toybox h1{
+        margin-left: 80px;
+        font-size: 9em;
+    }
+
+    .toybox-left{
+        width: 45%;
+    }
+
+    .accordion-body{
+        font-size: 0.9em;
+    }
+
+    .accordion{
+        margin-bottom: 100px;
+    }
+
+    .toybox-right h4{
+        font-size: 2.5em;
+    }
+
+    .toybox-right svg{
+        margin-top: -50px;
+    }
+
+    .toybox #background{
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+        height: 100%;
+    }
+
+    .toybox #background p{
+        font-size: 15em;
+        margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .toybox #background{
+        display: block;
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+        height: 100%;
+    }
+
+    .toybox #background p{
+        font-size: 15em;
+        margin-top: -150px;
+    }
+    .accordion-head{
+        font-size: 1.6em;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .toybox h1{
+        font-size: 8em;
+    }
+
+    .faqs{
+        margin-left: 25px;
+    }
+    .accordion-head{
+        font-size: 1.4em;
+    }
+
+    .accordion-body{
+        font-size: 0.9em;
+    }
+
+    .toybox #background{
+        display: block;
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+        height: 100%;
+    }
+
+    .toybox #background p{
+        font-size: 14em;
+        margin-top: -150px;
+    }
+
+    .toybox-right{
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) and (min-height: 700px) {
+    .accordion-head{
+        font-size: 1.2em;
+    }
+
+    .toybox h1{
+        margin-left: 80px;
+        font-size: 7.2em;
+    }
+
+    .toybox-left{
+        width: 45%;
+    }
+
+    .accordion-body{
+        font-size: 0.7em;
+    }
+
+    .accordion{
+        margin-bottom: 60px;
+    }
+
+    .toybox-right h4{
+        font-size: 2.5em;
+    }
+
+    .toybox-right svg{
+        margin-top: -50px;
+    }
+
+    .toybox #background{
+        display: block;
+        overflow: hidden;
+        height: 100%;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 13em;
+        margin-top: -130px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-height: 800px) {
+    .accordion-head{
+        font-size: 1.2em;
+    }
+
+    .toybox h1{
+        margin-left: 80px;
+        font-size: 7em;
+    }
+
+    .toybox-left{
+        width: 45%;
+    }
+
+    .accordion-body{
+        font-size: 0.7em;
+    }
+
+    .accordion{
+        margin-bottom: 60px;
+    }
+
+    .toybox-right h4{
+        font-size: 2.5em;
+    }
+
+    .toybox-right svg{
+        margin-top: -50px;
+    }
+
+    .toybox #background{
+        display: block;
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 13em;
+        margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 600px) {
+    .accordion-head{
+        font-size: 1em;
+    }
+
+    .toybox h1{
+        margin-left: 70px;
+        font-size: 6.2em;
+    }
+
+    .toybox-left{
+        width: 45%;
+    }
+
+    .accordion-body{
+        font-size: 0.65em;
+    }
+
+    .accordion{
+        margin-bottom: 30px;
+    }
+
+    .toybox-right h4{
+        font-size: 2.5em;
+    }
+
+    .toybox-right svg{
+        margin-top: -50px;
+    }
+
+    .toybox #background{
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 10em;
+        margin-top: -110px;
+    }
+    
+}
+
+@media screen and (max-device-width: 1000px) and (orientation: landscape) {
+    .toybox{
+        height: 100%;
+    }
+}   
+
+@media screen and (max-width: 1000px) {
+    .toybox #background{
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 9em;
+        margin-top: -90px;
+    }
+
+    .toybox-right{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .toybox #background{
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p{
+        font-size: 8em;
+        margin-top: -70px;
+    }
+
+    .toybox-right h4, .toybox-right svg{
+        margin-left: 50px;
+    }
+
+    .toybox-right{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .toybox #background{
+        overflow: hidden;
+        right: 0%;
+        top: 0%;
+    }
+
+    .toybox #background p {
+        font-size: 8em;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .toybox{
+        text-align: center;
+    }
+
+    .toybox h1{
+        font-size: 4em;
+        margin-top: 20px;
+        letter-spacing: -3px;
+        margin-left: 0;
+    }
+
+    .faqs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .toybox-left{
+        width: 90%;
+        position: relative;
+        z-index: 5;
+    }
+
+    .accordion{
+        margin-bottom: 30px;
+    }
+
+    .toybox-left h5{
+        font-size: 1.25em;
+    }
+
+    .toybox-right{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .accordion-body{
+        font-size: 0.9em;
+    }
+
+    .toybox #background{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        bottom: 0%;
+        left: 0;
+        text-align: center;
+    }
+
+    .toybox #background p{
+        font-size: 14em;
+        margin-top: -140px;
+        opacity: 10%;
+    }
+
+    .toybox-right h4, .toybox-right svg{
+        margin-left: 0px;
+    }
+
+    .toybox-right h4{
+        font-size: 2em;
+        margin-top: 5px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .toybox #background{
+        height: 80%;
+        top: 10%;
+    }
+    .toybox #background p{
+        font-size: 11.5em;
+        margin-top: -120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .toybox #background{
+        top: 12%;
+        height: 80%;
+    }
+
+    .toybox #background p{
+        font-size: 9em;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .toybox #background{
+        top: 12%;
+        height: 80%;
+    }
+
+    .toybox #background p{
+        font-size: 6.8em;
+        margin-top: -60px;
+    }
+
+    .toybox{
+        height: 100%;
+    }
+}

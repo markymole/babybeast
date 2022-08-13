@@ -1,0 +1,1579 @@
+.year{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+    background-size: cover;
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.whole-road{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-off{
+    display: none;
+}
+
+.vertical-line {
+    border-left: 6px solid white;
+    height: 50px;
+  }
+
+.lines{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+#first-line{
+    height: 60px;
+}
+
+#second-line{
+    height: 150px;
+}
+#third-line{
+    height: 170px;
+}
+#fourth-line{
+    height: 110px;
+}
+#fifth-line{
+    height: 140px;
+}
+
+.lines img{
+    width: 25px;
+}
+.roadmap{
+    display: flex;
+    animation: slideInLeft;
+    animation-duration: 0.5s;   
+    padding-bottom: 150px;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 240px;
+}
+.maps img{
+    width: 180px;
+}
+
+.description{
+    color: white;
+}
+
+.description h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+.description h5{
+    font-family: 'Roboto Mono', monospace;
+}
+.map-desc{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 40px;
+}
+
+#head-2{
+    margin-top: 30px;
+}
+
+.subhead{
+    font-size: 1.5em;
+    font-family: 'OpenSauceOne-Light';
+    letter-spacing: 2px;
+    opacity: 90%;
+}
+.head-2{
+    font-size: 2.1em;
+    font-family: 'OpenSauceOne-Regular';
+    letter-spacing: 1px;
+}
+
+.description h1{
+    text-align: start;
+}
+
+.year{
+    color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px; 
+    margin-left: -50px;
+}
+
+.year h1{
+    font-size: 3.5em;
+    margin-top: 20px;
+    font-family: 'OpenSauceOne-Bold';
+}
+
+.year h5{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 80%;
+}
+.lower h1{
+    font-family: 'Anton-Regular';
+}
+.upper h1{
+    color: #fff;
+    text-shadow:
+      0 0 0px #fff,
+      0 0 5px #fff,
+      0 0 12px #fff,
+      0 0 21px #fff;
+}
+
+.right-button button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.right-button button svg{
+    transition: 0.3s ease-in-out
+}
+
+.right-button button svg:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+#hidden{
+    display: none;
+}
+
+#hide{
+    display: none;
+
+}
+
+#not-hidden{
+    display: flex;
+    animation: slideInRight;
+    animation-duration: 0.5s;   
+}
+
+.mobile-on{
+    animation: fadeIn;
+    animation-duration: 0.5s;   
+}
+
+.whole-road-2 .mobile-on{
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+.left-button button{
+    background-color: transparent;
+    color: white;
+    margin-left: 30px;
+    margin-top: 380px;
+    border: none;
+}
+.left-button button svg{
+    transition: 0.3s ease-in-out;
+    align-content: center;
+}
+
+.left-button button svg:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+
+.maps-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 124px;
+    filter: blur(20px);
+    
+}
+.maps-2 img{
+    width: 200px;
+    
+}
+
+.map-desc-2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    margin-left: 40px;
+    width: 65%;
+    filter: blur(20px);
+    webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#year-2{
+    width: 30%;
+}
+.year .center-text{
+    text-align: center;
+    width: 500px;
+    margin-left: -730px;
+    color: white;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  
+}
+.center-text h3{
+    font-size: 3em;
+    font-family: 'OpenSauceOne-Bold';
+}
+
+#line-2{
+    filter: blur(20px);
+}
+@media screen and (min-width: 1999px) {
+    .map-desc{
+        width: 70%;
+    }
+
+    .year{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .maps img{
+        width: 130px;
+    }
+    .maps{
+        margin-top: 20px;
+        gap: 60px;
+        margin-left: 50px;
+    }
+
+    .description h1{
+        font-size: 1.35em;
+    }
+    
+    .description h5{
+        font-size: 1.1em;
+    }
+
+    .year h1{
+        font-size: 2em;
+        margin-top: 50px;
+    }
+
+    .year h5{
+        font-size: 1.5em;
+    }
+
+
+
+    #third-line{
+        height: 150px;
+    }
+
+    .center-text{
+        font-size: 0.5em;
+    }
+
+    .year .center-text{
+        margin-left: -600px;
+    }
+}
+
+@media screen and (max-width: 5200px) and (min-height: 2880px) {
+    .maps img{
+        width: 550px;
+    }
+
+    .map-desc{
+        gap: 300px;
+        margin-left: 100px;
+    }
+
+    .maps{
+        margin-top: -50px;
+        margin-right: 40px;
+        gap: 25px;
+        margin-left: 500px;
+    }
+
+    .map-desc h1{
+        font-size: 5em;
+    }
+
+    .map-desc h5{
+        font-size: 4.5em;
+    }
+
+    .maps-2 img{
+        width: 550px;
+    }
+
+    .map-desc-2{
+        gap: 240px;
+        margin-left: 100px;
+    }
+
+    .maps-2{
+        margin-top: -50px;
+        margin-right: 40px;
+        gap: 25px;
+        margin-left: 500px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 5em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 4.5em;
+    }
+
+    .lines img{
+        width: 70px;
+    }
+
+    #first-line{
+        height: 150px;
+    }
+    
+    #second-line{
+        height: 400px;
+    }
+    #third-line{
+        height: 750px;
+    }
+    #fourth-line{
+        height: 350px;
+    }
+    #fifth-line{
+        height: 200px;
+    }
+
+    .year h1{
+        font-size: 10em;
+    }
+
+    .year h5{
+        font-size: 5em;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 1800px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 11em;
+    }
+
+    #year-2 .center-text{
+        width: 1400px;
+        margin-left: -2000px;
+    }
+
+    .left-button button{
+        margin-top: 1000px;
+    }
+
+    .whole-road{
+        padding-bottom: 200px;
+    }
+
+    .whole-road-2{
+        padding-bottom: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 4100px) and (min-height: 2304px) {
+    .maps img{
+        width: 420px;
+    }
+
+    .map-desc{
+        gap: 200px;
+        margin-left: 100px;
+    }
+
+    .maps{
+        margin-top: -50px;
+        margin-right: 40px;
+        gap: 25px;
+        margin-left: 400px;
+    }
+
+    .map-desc h1{
+        font-size: 4.2em;
+    }
+
+    .map-desc h5{
+        font-size: 3.7em;
+    }
+
+    .maps-2 img{
+        width: 420px;
+    }
+
+    .map-desc-2{
+        gap: 200px;
+        margin-left: 100px;
+    }
+
+    .maps-2{
+        margin-top: -50px;
+        margin-right: 40px;
+        gap: 25px;
+        margin-left: 400px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 4.2em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 3.7em;
+    }
+
+    .lines img{
+        width: 50px;
+    }
+
+    #first-line{
+        height: 150px;
+    }
+    
+    #second-line{
+        height: 400px;
+    }
+    #third-line{
+        height: 450px;
+    }
+    #fourth-line{
+        height: 300px;
+    }
+    #fifth-line{
+        height: 200px;
+    }
+
+    .year h1{
+        font-size: 8em;
+    }
+
+    .year h5{
+        font-size: 4em;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 8em;
+    }
+
+    #year-2 .center-text{
+        width: 1200px;
+        margin-left: -1700px;
+    }
+
+    .left-button button{
+        margin-top: 800px;
+    }
+
+    .whole-road{
+        padding-bottom: 200px;
+    }
+
+    .whole-road-2{
+        padding-bottom: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 3900px) and (min-height: 2160px) {
+
+    .lines img{
+        width: 50px;
+    }
+    #first-line{
+        height: 70px;
+    }
+    
+    #second-line{
+        height: 400px;
+    }
+    #third-line{
+        height: 400px;
+    }
+    #fourth-line{
+        height: 330px;
+    }
+    #fifth-line{
+        height: 200px;
+    }
+
+    .maps{
+        margin-left: 500px;
+    }
+    
+    .maps img{
+        width: 400px;
+    }
+
+    .map-desc h1{
+        font-size: 3.7em;
+    }
+
+    .map-desc h5{
+        font-size: 3.2em;
+    }
+
+    .map-desc{
+        margin-left: 100px;
+        gap: 220px;
+    }
+
+    .maps-2{
+        margin-left: 500px;
+    }
+    
+    .maps-2 img{
+        width: 400px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 3.7em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 3.2em;
+    }
+
+    .map-desc-2{
+        margin-left: 100px;
+        gap: 220px;
+    }
+
+    .left-button button{
+        margin-top: 800px;
+    }
+
+    .year h1{
+        font-size: 7em;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 8em;
+    }
+
+    #year-2 .center-text{
+        width: 1200px;
+        margin-left: -1650px;
+    }
+
+    .whole-road-2{
+        padding-bottom: 200px;
+    }
+
+    .whole-road{
+        padding-bottom: 200px;
+    }
+
+    .year h5{
+        font-size: 3.5em;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 2600px) and (min-height: 1440px){
+    .map-desc{
+        gap: 130px;
+    }
+    .map-desc h1{
+        font-size: 2.6em;
+    }
+
+    .map-desc h5{
+        font-size: 2em;
+    }
+
+    .maps img{
+        width: 250px;
+    }
+
+    .maps{
+        gap: 25px;
+    }
+
+    .map-desc-2{
+        gap: 130px;
+    }
+    .map-desc-2 h1{
+        font-size: 2.6em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 2em;
+    }
+
+    .maps-2 img{
+        width: 250px;
+    }
+
+    .maps-2{
+        gap: 25px;
+    }
+
+    .year h1{
+        font-size: 5em;
+    }
+
+    .year h5{
+        font-size: 2.5em;
+    }
+    
+    .lines img{
+        width: 35px;
+    }
+
+    #first-line{
+        height: 30px;
+    }
+    
+    #second-line{
+        height: 200px;
+    }
+    #third-line{
+        height: 320px;
+    }
+    #fourth-line{
+        height: 150px;
+    }
+    #fifth-line{
+        height: 130px;
+    }
+
+    #year-2 .center-text{
+        width: 900px;
+        margin-left: -1070px;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 5em;
+    }
+
+    .left-button button{
+        margin-top: 500px;
+    }
+
+    .year{
+        background-size: 900px;
+    }
+
+}
+
+@media screen and (max-width: 1700px) and (min-height: 1050px)
+{
+    .map-desc h1{
+        font-size: 1.5em;
+    }
+
+    .maps img{
+        width: 180px;
+    }
+
+    .maps{
+        gap: 25px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 1.5em;
+    }
+
+    .maps-2 img{
+        width: 180px;
+    }
+
+    .maps-2{
+        gap: 25px;
+    }
+
+    .year h1{
+        font-size: 3em;
+    }
+
+    .year h5{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-height: 900px){
+
+    .year h1{
+        font-size: 2.5em;
+    }
+
+    .year h5{
+        font-size: 1.5em;
+    }
+    .maps{
+        gap: 30px;
+        margin-left: 180px;
+    }
+
+    .maps img{
+        width: 140px;
+    }
+
+    .maps-2{
+        gap: 20px;
+        margin-left: 80px;
+    }
+
+    .maps-2 img{
+        width: 150px;
+    }
+
+    .map-desc{
+        gap: 70px;
+    }
+
+    .map-desc-2{
+        gap: 80px;
+    }
+
+    .map-desc h1{
+        font-size: 1.3em;
+    }
+
+    .map-desc h5{
+        font-size: 1em;
+    }
+
+    .map-desc-2 h1{
+        font-size: 1.3em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 1em;
+    }
+
+    #first-line{
+        height: 30px;
+    }
+    
+    #second-line{
+        height: 100px;
+    }
+    #third-line{
+        height: 160px;
+    }
+    #fourth-line{
+        height: 70px;
+    }
+    #fifth-line{
+        height: 80px;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 3em;
+    }
+
+    #year-2 .center-text{
+        width: 400px;
+        margin-left: -600px;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 650px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) and (min-height: 768px) {
+    .maps{
+        margin-left: 150px;
+    }
+
+    .map-desc h1{
+        font-size: 1.25em;
+    }
+
+    .map-desc{
+        gap: 70px;
+    }
+
+    .map-desc-2{
+        gap: 70px;
+    }
+
+    #first-line{
+        height: 30px;
+    }
+    
+    #second-line{
+        height: 80px;
+    }
+    #third-line{
+        height: 160px;
+    }
+    #fourth-line{
+        height: 80px;
+    }
+    #fifth-line{
+        height: 80px;
+    }
+
+    .maps{
+        gap: 35px;
+    }
+
+    .maps-2{
+        gap: 35px;
+        margin-left: 60px;
+    }
+
+    .maps-2 img{
+        width: 130px;
+    }
+
+    #year-2 .center-text{
+        width: 400px;
+        margin-left: -550px;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 5.5em;
+    }
+
+    .left-button button{
+        margin-top: 300px;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+}
+@media screen and (max-width: 1300px) and (min-height: 800px) {
+    .map-desc{
+        gap: 55px;
+        margin-left: 30px;
+    }
+
+    .map-desc h1{
+        font-size: 1.2em;
+    }
+
+    .map-desc h5{
+        font-size: 1em;
+    }
+
+    .map-desc-2 h1{
+        font-size: 1.3em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 1em;
+    }
+
+    .vertical-line {
+        border-left: 2.5px solid white;
+    }
+
+    .lines img{
+        width: 20px;
+    }
+    #first-line{
+        height: 30px;
+    }
+    
+    #second-line{
+        height: 80px;
+    }
+    #third-line{
+        height: 130px;
+    }
+    #fourth-line{
+        height: 70px;
+    }
+    #fifth-line{
+        height: 80px;
+    }
+
+    .maps{
+        margin-left: 130px;
+        gap: 30px;
+    }
+
+    .maps img{
+        width: 120px;
+    }
+
+    .maps-2{
+        gap: 80px;
+        margin-left: 50px;
+    }
+
+    .map-desc-2{
+        gap: 55px;
+    }
+
+    .year h1{
+        font-size: 2.5em;
+    }
+
+    .year h5{
+        font-size: 1.2em;
+    }
+
+    #year-2 .center-text{
+        width: 400px;
+        margin-left: -520px;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 5.2em;
+    }
+
+    .maps-2 img{
+        width: 80px;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 550px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1100px) and (min-height: 600px) {
+    #year-2 .center-text{
+        margin-left: -400px;
+    }
+}
+@media screen and (max-width: 1100px) and (min-height: 600px) {
+    .year h1{
+        font-size: 1.3em;
+        margin-top: 50px;
+    }
+
+    .year{
+        gap: 0px;
+    }
+
+    .year h5{
+        font-size: 1em;
+    }
+
+    .map-desc h1{
+        font-size: 0.99em;
+    }
+
+    .map-desc h5{
+        font-size: 0.8em;
+    }
+
+    .maps img{
+        width: 100px;
+    }
+
+    .maps{
+        margin-top: 40px;
+        margin-left: 140px;
+        gap: 20px;
+    }
+
+    .map-desc{
+        gap: 45px;
+        margin-left: 30px;
+    }
+
+    .vertical-line {
+        border-left: 3px solid white;
+    }
+
+    .lines img{
+        width: 15px;
+    }
+
+    #first-line{
+        height: 30px;
+    }
+    
+    #second-line{
+        height: 60px;
+    }
+    #third-line{
+        height: 110px;
+    }
+    #fourth-line{
+        height: 50px;
+    }
+    #fifth-line{
+        height: 80px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 1em;
+    }
+
+    .map-desc-2 h5{
+        font-size: 0.8em;
+    }
+
+    .maps-2 img{
+        width: 80px;
+    }
+
+    .maps-2{
+        margin-top: 40px;
+        gap: 50px;
+        margin-left: 60px;
+    }
+
+    .map-desc-2{
+        gap: 50px;
+        margin-left: 60px;
+    }
+    
+
+    #year-2 .center-text{
+        width: 250px;
+        margin-left: -390px;
+    }
+
+    #year-2 .center-text h3{
+        font-size: 4em;
+    }
+
+    .left-button button{
+        margin-top: 250px;
+    }
+
+    .year h1{
+        font-size: 1.8em;
+    }
+
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: cover;
+        background-size: 480px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .maps img{
+        width: 100px;
+    }
+    .maps {
+        gap: 40px;
+    }
+    #prev{
+        display: none;
+    }
+
+    .maps{
+        margin-left: 10px;
+    }
+
+    .map-desc h1{
+        font-size: 1.3em;
+    }
+
+    .map-desc{
+        gap: 40px;
+    }
+    
+    .map-desc h5{
+        font-size: 1.2em;
+    }
+
+    .year{
+        display: none;
+    }
+
+    .mobile-on{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .mobile-on .upper{
+        text-align: center;
+        color: white;
+    }
+
+    .mobile-on .upper h2{
+        font-family: 'Anton-Regular';
+    }
+
+    .mobile-on .upper h1{
+        font-family: 'OpenSauceOne-Bold';
+        letter-spacing: 4px;
+    }
+
+    .mobile-on .upper h5{
+        font-family: 'OpenSauceOne-Light';
+        font-size: 0.8em;
+    }
+
+    .mobile-on .upper p{
+        font-family: 'OpenSauceOne-Light';
+        font-size: 0.8em;
+    }
+
+    .mobile-on .center-text{
+        position: absolute;
+        margin-top: 650px;
+        width: 200px;
+        font-size: 0.4em;
+        text-align: center;
+        color: white;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+    }
+
+    .mobile-on .right-button{
+        margin-right: -80px;
+    }
+
+    
+    .map-desc-2{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 80%;
+    }
+    .maps-2{
+        margin-left: 0;
+        gap: 40px;
+        margin-top: 50px;
+    }
+    .year-2{
+        display: none;
+    }
+
+    .maps-2 img{
+        width: 100px;
+    }
+
+    .lines img{
+        width: 10px;
+    }
+
+    .whole-road-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whole-road-2 .mobile-on{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .whole-road-2 .mobile-on .right-button{
+        margin-left: -80px;
+        margin-right: 5px;
+    }
+
+    .map-desc-2 h1{
+        font-size: 1.3em;
+    }
+    .map-desc-2 h5{
+        font-size: 1.3em;
+    }
+
+    #third-line{
+        height: 90px;
+    }
+
+    #second-line{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .maps{
+        gap: 10%;
+    }
+
+    .lines img{
+        width: 20px;
+    }
+
+    .maps-2{
+        gap: 10%;
+    }
+    #first-line{
+        height: 10px;
+    }
+    
+    #second-line{
+        height: 40%;
+    }
+    #third-line{
+        height: 30%;
+    }
+    #fourth-line{
+        height: 20%;
+    }
+    #fifth-line{
+        height: 50px;
+    }
+    .mobile-on .center-text{
+        font-size: 0.7em;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .maps{
+        gap: 13%;
+    }
+
+    .maps-2{
+        gap: 13%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lines img{
+        width: 17px;
+    }
+
+    #second-line{
+        height: 25%;
+    }
+
+    #third-line{
+        height: 20%;
+    }
+
+    #fourth-line{
+        height: 30%;
+    }
+
+    #fifth-line{
+        height: 50px;
+    }
+    .maps img{
+        width: 80px;
+    }
+
+    .maps{
+        gap: 16%;
+    }
+
+    .maps-2{
+        gap: 16%;
+    }
+
+    .maps-2 img{
+        width: 80px;
+    }
+
+    .description h1{
+        font-size: 1.1em;
+    }
+
+    .description h5{
+        font-size: 0.9em;
+    }
+
+    .mobile-on .center-text{
+        font-size: 0.7em;
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .maps img{
+        width: 60px;
+    }
+
+    .roadmap .lines img{
+        width: 15px;
+    }
+
+    #prev{
+        display: none;
+    }
+    .lines{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0;
+    }
+    #head-2{
+        margin-top: -1px;
+    }
+    #first-line{
+        height: 10px;
+    }
+    
+    #second-line{
+        height: 35%;
+    }
+    #third-line{
+        height: 25%;
+    }
+    #fourth-line{
+        height: 20%;
+    }
+    #fifth-line{
+        height: 10%;
+    }
+
+    .vertical-line {
+        border-left: 3px solid white;
+    }
+
+    .map-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 5px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .maps{
+        margin-left: 0;
+        gap: 19%;
+        margin-top: 40px;
+    }
+    .subhead{
+        font-family: 'OpenSauceOne-Light';
+        letter-spacing: 2px;
+        opacity: 90%;
+    }
+    .description h1{
+        font-size: 0.9em;
+    }
+
+    .description h5{
+        font-size: 0.85em;
+    }
+    .head-2{
+        font-size: 0.8em;
+        font-family: 'OpenSauceOne-Regular';
+        letter-spacing: 1px;
+    }
+    
+    .year{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../assets/roadmap-bg.png');
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-position: left;
+        overflow: hidden;
+    }
+
+    .year{
+        text-align: center;
+        margin-right: 0;
+    }
+    .year h1{
+        font-size: 0.5em;
+        font-family: 'OpenSauceOne-Bold';
+    }
+    
+    .year h5{
+        font-size: 0.5em;
+        font-family: 'OpenSauceOne-Regular';
+        opacity: 80%;
+    }
+    .roadmap{
+        padding-top: 30px;
+    }
+
+    .mobile-on{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .roadmap-2 .lines{
+        filter: blur(10px);
+    }
+    .mobile-on .upper{
+        text-align: center;
+        color: white;
+    }
+
+    .mobile-on .upper h2{
+        font-family: 'Anton-Regular';
+    }
+
+    .mobile-on .upper h1{
+        font-family: 'OpenSauceOne-Bold';
+        letter-spacing: 4px;
+    }
+
+    .mobile-on .upper h5{
+        font-family: 'OpenSauceOne-Light';
+        font-size: 0.8em;
+    }
+
+    .mobile-on .upper p{
+        font-family: 'OpenSauceOne-Light';
+        font-size: 0.8em;
+    }
+
+    .mobile-on .center-text{
+        position: absolute;
+        margin-top: 650px;
+        width: 300px;
+        font-size: 0.6em;
+        text-align: center;
+        color: white;
+        -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+    }
+
+    .mobile-on .right-button{
+        margin-right: -60px;
+    }
+
+    .year{
+        display: none;
+    }
+
+    .roadmap{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .roadmap-2{
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .map-desc-2{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    .maps-2{
+        margin-left: 0;
+        gap: 19%;
+        margin-top: 40px;
+    }
+    .year-2{
+        display: none;
+    }
+
+    .maps-2 img{
+        width: 60px;
+    }
+
+    .lines img{
+        width: 10px;
+    }
+
+    .whole-road-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whole-road-2 .mobile-on{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .whole-road-2 .mobile-on .right-button{
+        margin-left: -80px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .maps{
+        margin-left: -10px;
+    }
+    .mobile-on{
+        width: 100%;
+        gap: 10px;
+    }
+    .mobile-on p{
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile-on .upper{
+        margin-left: -20px;
+    }
+
+    .whole-road-2 .mobile-on .right-button{
+        margin-left: -50px;
+    }
+
+    .description h5{
+        font-size: 0.6em;
+    }
+    
+
+}

@@ -1,0 +1,16 @@
+.wallet{
+    width: 100%;
+    background-color: black;
+    margin-top: 250px;
+    padding-bottom: 357px;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.wallet h1{
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    font-family: 'Anton-Regular';
+   
+}

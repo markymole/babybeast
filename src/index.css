@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Anton-Regular";
+  src: local("Anton"),
+   url("./fonts/Anton/Anton-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSauceOne-SemiBold";
+  src: local("OpenSauceOne"),
+   url("./fonts/OpenSauceOne/OpenSauceOne-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSauceOne-Regular";
+  src: local("OpenSauceOne"),
+   url("./fonts/OpenSauceOne/OpenSauceOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSauceOne-Light";
+  src: local("OpenSauceOne"),
+   url("./fonts/OpenSauceOne/OpenSauceOne-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSauceOne-Bold";
+  src: local("OpenSauceOne"),
+   url("./fonts/OpenSauceOne/OpenSauceOne-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HK-Grotesk-Light";
+  src: local("hk-grotesk.light"),
+   url("./fonts/HK_Grotesk/hk-grotesk.light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HK-Grotesk-Medium";
+  src: local("hk-grotesk.medium"),
+   url("./fonts/HK_Grotesk/hk-grotesk.medium.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Zing-Rust-Regular";
+  src: local("zing.rust-demo-base"),
+   url("./fonts/Zing_Rust/zing.rust-demo-base.otf") format("truetype");
+}

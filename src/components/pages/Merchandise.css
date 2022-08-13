@@ -1,0 +1,22 @@
+.merchandise{
+    width: 100%;
+    background-color: black;
+    margin-top: 250px;
+    min-height: 100vh;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.merchandise h1{
+    color: white;
+    font-size: 10em;
+    text-align: center;
+    font-family: 'Anton-Regular';
+   
+}
+
+@media screen and (max-width: 1000px) {
+    .merchandise h1{
+        font-size: 4em;
+    }
+}

@@ -1,0 +1,24 @@
+.nav-container{
+  width: 100%;
+  position: fixed;
+  top: 5;
+  z-index: 999;
+}
+
+.routes{
+  width: 100%;
+  padding-top: 98px;
+}
+.main{
+  background-color: black;
+}
+
+@media screen and (max-width: 1000px){
+  /* .nav-container{
+    width: 100vw;
+    position: fixed;
+    top: 5;
+    z-index: 999;
+  } */
+  
+}

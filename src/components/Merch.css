@@ -1,0 +1,463 @@
+.merch{
+    padding-bottom: 130px;
+}
+
+.head{
+    text-align: left;
+}
+.headings div{
+    display: flex;
+    margin-left: 45px;
+    align-items: center;
+    gap: 25px;
+}
+
+.shirt-center-text{
+    text-align: center;
+    color: white;
+    font-family: "HK-Grotesk-Light";
+    margin-top: 10px;
+}
+
+.shirt-center-text-mobile{
+    text-align: center;
+    color: white;
+    font-family: "HK-Grotesk-Light";
+    margin-top: 10px;
+}
+
+
+.shirt-center-text-mobile{
+    display: none;
+}
+
+.headings .merchlogo{
+    width: 160px;
+}
+
+.headings h1{
+    font-size: 6.5em;
+    font-family: 'Anton-Regular';
+    color: white;
+    letter-spacing: -2px;
+}
+
+.shirts-container{
+    margin-top: 30px;
+    
+}
+
+.shirts-container-2{
+    margin-top: 40px;
+    
+}
+
+#shirts-2 {
+    margin-top: 50px;
+}
+
+.shirts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+}
+
+#second-shirts{
+    margin-top: 40px;
+}
+
+.merch-name{
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;  
+    font-family: 'Lastica-Regular';
+}
+
+.merch-name h1{
+    font-size: 1.1em;
+    margin-top: -15px;
+}
+
+
+.merch-link .merch-image{
+    width: 200px;
+    transition: 0.4s ease-in-out;
+}
+
+.not-hovered{
+    transition: 0.4s ease-in-out;
+}
+
+
+.hovered{
+    transform: scale(1.25);
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.merch-image img{
+    width: 150px;
+    transition: 0.4s ease-in-out;
+}
+
+.merch-link-2 img{
+    width: 200px;
+    transition: 0.4s ease-in-out;
+}
+
+.merch-image2 img{
+    width: 230px;
+    transition: 0.4s ease-in-out;
+}
+
+/* Large devices */
+@media screen and (min-width: 1999px) {
+    .merch-link .merch-image{
+        width: 350px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .shirt-center-text p{
+        font-size: 2em;
+    }
+
+    .shirt-center-text{
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .headings .merchlogo{
+        width: 200px;
+    }
+    
+    .headings h1{
+        font-size: 7em;
+        font-family: 'Anton-Regular';
+        color: white;
+        letter-spacing: -2px;
+    }
+
+    .shirts-container{
+        margin-top: 100px;
+    }
+
+    .merch{
+        padding-bottom: 150px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .shirts-container{
+        margin-top: 10px;
+    }
+    .head{
+        text-align: center;
+    }
+    .headings .head{
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .headings .merchlogo{
+        width: 100px;
+    }
+
+    .merch-link .merch-image{
+        width: 180px;
+        transition: 0.4s ease-in-out;
+    }
+
+    #second-shirts{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 5200px) and (min-height: 2880px) {
+    .merch{
+        padding-top: 200px;
+        padding-bottom: 500px;
+    }
+    .merch-link .merch-image{
+        width: 530px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .shirt-center-text p{
+        margin-top: 80px;
+        margin-bottom: 100px;
+        font-size: 2.7em;
+    }
+    .headings{
+        margin-left: 150px;
+    }
+
+
+    .headings .head{
+        text-align: center;
+        font-size: 17em;
+    }
+
+    .headings .merchlogo{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 5000px) and (min-height: 2304px) {
+    .merch{
+        padding-top: 200px;
+        padding-bottom: 500px;
+    }
+    .merch-link .merch-image{
+        width: 480px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .shirt-center-text p{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 2.5em;
+    }
+    .headings{
+        margin-left: 150px;
+    }
+
+
+    .headings .head{
+        text-align: center;
+        font-size: 15em;
+    }
+
+    .headings .merchlogo{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 3900px) and (min-height: 2160px) {
+    .merch{
+        padding-top: 200px;
+        padding-bottom: 500px;
+    }
+    .merch-link .merch-image{
+        width: 400px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .shirt-center-text p{
+        margin-top: 50px;
+        margin-bottom: 70px;
+        font-size: 2.5em;
+    }
+    .headings{
+        margin-left: 100px;
+    }
+
+    .headings .head{
+        text-align: center;
+        font-size: 13em;
+    }
+
+    .headings .merchlogo{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 2600px) and (min-height: 1440px) {
+    .merch-link .merch-image{
+        width: 280px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .shirt-center-text p{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 1.5em;
+    }
+    .headings .head{
+        text-align: center;
+        font-size: 9em;
+    }
+
+    .headings .merchlogo{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1930px) and (min-height: 1200px) {
+    
+    .merch-link .merch-image{
+        width: 250px;
+        transition: 0.4s ease-in-out;
+    }
+    .shirt-center-text p{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 1700px) and (min-height: 1050px) {
+    .headings .head{
+        text-align: center;
+        font-size: 6em;
+    }
+
+    .headings .merchlogo{
+        width: 150px;
+    }
+
+    .shirts-container{
+        margin-top: 50px;
+    }
+
+    .shirt-center-text p{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 1.1em;
+    }
+
+    .merch-link .merch-image{
+        width: 210px;
+        transition: 0.4s ease-in-out;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .shirts-container{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .merch{
+        padding-top: 150px;
+    }
+
+    .headings{
+        margin-bottom: 50px;
+
+    }
+
+    .headings div{
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .merch-link .merch-image{
+        width: 130px;
+    }
+
+    .shirt-center-text p {
+        font-size: 0.8em;
+    }
+
+    .shirt-center-text{
+        display: none;
+    }
+
+    .shirt-center-text-mobile{
+        display: flex;
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .merch{
+        padding-bottom: 80px;
+        padding-top: 90px;
+    }
+    .shirt-center-text p{
+        font-size: 0.85em;
+    }
+
+    .headings div{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .headings h1{
+        font-size: 2.5em;
+        margin-bottom: 0px;
+    }
+    .headings .merchlogo{
+        width: 90px;
+    }
+    .merchlogo{
+        margin-bottom: -30px;
+    }
+
+    .shirts{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .merch-link .merch-image{
+        width: 100px;
+        margin-bottom: -20px;
+    }
+
+    #second-shirts{
+        margin-top: 40px;
+    }
+
+    .merch-name h1{
+        font-size: 0.55em;
+    }
+
+    .merch-name{
+        margin-top: 10px;
+    }
+
+    .merch-name .logo{
+        width: 30px;
+        margin-bottom: 13px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .headings .head{
+        font-size: 3em;
+    }
+
+    .merch-link .merch-image{
+        width: 80px;
+        margin-bottom: -20px;
+    }
+
+    .headings{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .shirts{
+        display: flex;
+        flex-direction: row;
+    }
+    .merch-link .merch-image{
+        width: 100%;
+        margin-bottom: -20px;
+    }
+
+    .shirt{
+        width: 25%;
+    }
+
+    .merch-name h1{
+        font-size: 0.4em;
+    }
+    #second-shirts{
+        margin-top: 40px;
+    }
+}

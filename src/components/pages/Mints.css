@@ -1,0 +1,347 @@
+.mint{
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    height: 100vh;
+    animation: fadeIn;
+    animation-duration: 0.3s;
+}
+
+.mint h1{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Anton-Regular';
+}
+.first-box{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Anton-Regular';
+}
+
+.first-box .red-text{
+    color: maroon;
+    margin-top: 30px;
+}
+
+.first-box{
+}
+
+.first-box h5{
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+
+.second-box h5{
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+
+.second-box{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'Anton-Regular';
+}
+
+
+@media screen and (max-width: 5200px) and (min-height: 2880px) {
+    .first-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .second-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mint{
+        margin-top: 600px;
+    }
+    .mint h1{
+        font-size: 13em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 70px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 3.2em;
+    }
+}
+
+@media screen and (max-width: 4100px) and (min-height: 2304px) {
+    .first-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .second-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mint{
+        margin-top: 350px;
+    }
+    .mint h1{
+        font-size: 13em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 70px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 3.2em;
+    }
+}
+
+@media screen and (max-width: 3900px) and (min-height: 2160px) {
+    .first-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .second-box{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mint{
+        margin-top: 350px;
+    }
+    .mint h1{
+        font-size: 10em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 70px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 2600px) and (min-height: 1440px) {
+    .mint{
+        margin-top: 300px;
+    }
+    .mint h1{
+        font-size: 7em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 10px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-height: 900px) {
+    .mint{
+        margin-top: 150px;
+    }
+    .mint h1{
+        font-size: 4em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 10px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-height: 768px) {
+    .mint{
+        margin-top: 100px;
+    }
+    .mint h1{
+        font-size: 3.5em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 10px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-height: 800px) {
+    .mint{
+        margin-top: 150px;
+    }
+    .mint h1{
+        font-size: 4em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 10px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 768px) {
+    .mint{
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 600px) {
+    .first-box, .second-box{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .mint{
+        margin-top: 70px;
+    }
+    .mint h1{
+        font-size: 3em;
+    }
+
+    .first-box{
+        width: 20vw;
+    }
+    
+    .first-box .red-text{
+        margin-top: 10px;
+    }
+
+    .second-box{
+        width: 20vw;
+    }
+
+    .mint h5{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .first-box{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .second-box{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .second-box h5{
+        font-size: 0.8em;
+    }
+
+    .first-box .red-text{
+        color: maroon;
+        margin-top: 20px;
+    }
+
+    .first-box h5{
+        font-size: 1em;
+    }
+
+    .mint{
+        margin-top: 100px;
+    }
+
+    .mint h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .first-box{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .second-box{
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}

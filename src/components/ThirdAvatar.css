@@ -1,0 +1,617 @@
+.third-avatar{
+    text-align: center;
+    position: relative;
+    padding-bottom: 100px;
+    z-index: 1;
+}
+
+.bg-images-3{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    opacity: 20%;
+}
+
+.bg-images-3 img{
+    transform: scale(1.2);
+}
+
+
+.third-title{
+    font-size: 4em;
+    color: white;
+    font-family: 'Anton-Regular';
+    letter-spacing: -2px;
+    padding-top: 50px;
+}
+
+.avatar-3 img{
+    width: 250px;
+}
+
+.avatar-3{
+    color: white;
+    font-family: 'Anton-Regular';
+    letter-spacing: 2px;
+    margin-left: -130px;
+    margin-top: -5px;
+}
+
+.avatars-3{
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    gap: 50px;
+    margin-bottom: -40px;
+}
+
+.avatar-3 h3{
+    font-size: 1.5em;
+}
+
+.makers-text{
+    color: white;
+}
+
+.makers-avatar img{
+    width: 280px;
+}
+
+.makers-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: -33px;
+}
+
+.makers-text .heads{
+    font-size: 2em;
+    font-family: 'Anton-Regular';
+    letter-spacing: 4px;
+    color: white;
+}
+
+.makers-text .sub-head{
+    background-color: white;
+    font-family: "Zing-Rust-Regular";
+    letter-spacing: 4px;
+    font-size: 1.6em;
+    color: black;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.makers-text h5{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+    font-size: 1.1em;
+}
+
+.makers-avatar .desc{
+    margin-top: 20px;
+    width: 15vw;
+    text-align: justify;
+}
+
+.makers-avatar-all{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#baby-makers{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+    .avatars-3{
+        margin-bottom: -100px;
+    }
+    .makers-text .desc{
+        width: 20vw;
+    }
+    .makers-avatar img{
+        width: 150px;
+    }
+
+    .third-title{
+        font-size: 2.5em;
+        letter-spacing: -2px;
+        margin-bottom: 50px;
+    }
+    .makers-avatar .makers-text h3{
+        font-size: 1.1em;
+    }
+    .makers-avatar .makers-text h5{
+        font-size: 0.9em;
+    }
+
+    .avatar-3 img{
+        width: 150px;
+    }
+
+    .avatar-3 h3{
+        font-size: 1em;
+    }
+
+    .avatars-3{
+        gap: 120px;
+        margin-top: -40px;
+        margin-bottom: -120px;
+    }
+}
+
+@media screen and (max-width: 5200px) and (min-height: 2880px) {
+    .third-avatar{
+        padding-top: 100px;
+    }
+    .third-title{
+        font-size: 11em;
+    }
+
+    .avatar-3 img{
+        width: 800px;
+        margin-bottom: -30px;
+    }
+
+    .avatar-3 h3{
+        font-size: 4em;
+    }
+
+    .avatars-3{
+        gap: 0px;
+        margin-bottom: -1px;
+    }
+
+    .makers-avatar img{
+        width: 800px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 6em;
+        width: 100%;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 3.5em;
+    }
+
+    .makers-avatar-all{
+        margin-top: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 4100px) and (min-height: 2304px) {
+    .third-title{
+        font-size: 10.5em;
+    }
+
+    .avatar-3 img{
+        width: 750px;
+        margin-bottom: -30px;
+    }
+
+    .avatar-3 h3{
+        font-size: 4em;
+    }
+
+    .avatars-3{
+        gap: 0px;
+        margin-bottom: -1px;
+    }
+
+    .makers-avatar img{
+        width: 750px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 5.5em;
+        width: 100%;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 3em;
+    }
+
+    .makers-avatar-all{
+        margin-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 3900px) and (min-height: 2160px) {
+    .third-title{
+        font-size: 8em;
+    }
+
+    .avatar-3 img{
+        width: 600px;
+    }
+
+    .avatar-3 h3{
+        font-size: 3em;
+    }
+
+    .avatars-3{
+        gap: 0px;
+        margin-bottom: -1px;
+    }
+
+    .makers-avatar img{
+        width: 600px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 4.5em;
+        width: 100%;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 2.5em;
+    }
+
+    .makers-avatar-all{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 2600px) and (min-height: 1440px) {
+    .third-title{
+        font-size: 5.5em;
+    }
+
+    .avatar-3 img{
+        width: 420px;
+    }
+
+    .avatar-3 h3{
+        font-size: 2em;
+    }
+
+    .avatars-3{
+        gap: 0px;
+        margin-bottom: -30px;
+    }
+
+    .makers-avatar img{
+        width: 440px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 1.8em;
+    }
+
+    .makers-avatar-all{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 2000px) and (min-height: 1080px) {
+    .avatar-3 img{
+        width: 320px;
+    }
+
+    .avatars-3{
+        margin-bottom: -40px;
+        gap: 30px;
+    }
+
+    .makers-avatar-all{
+        margin-top: 30px;
+    }
+
+    .makers-avatar img{
+        width: 380px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 2em;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 1.4em;
+    }
+
+}
+
+@media screen and (max-width: 1500px) and (min-height: 900px) {
+    .avatar-3 img{
+        width: 230px;
+    }
+
+    .avatar-3 h3{
+        font-size: 1.2em;
+    }
+
+    .avatars-3{
+        gap: 40px;
+        margin-bottom: -70px;
+    }
+
+    .makers-avatar img{
+        width: 250px;
+    }
+
+    .makers-avatar-all{
+        margin-top: 70px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 1.4em;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-height: 768px) {
+    .avatar-3 img{
+        width: 220px;
+    }
+
+    .avatars-3{
+        gap: 40px;
+        margin-bottom: -40px;
+    }
+
+    .makers-avatar img{
+        width: 220px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 1.4em;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-height: 800px) {
+    .avatar-3 img{
+        width: 220px;
+    }
+
+    .avatars-3{
+        gap: 40px;
+        margin-bottom: 0;
+    }
+
+    .makers-avatar img{
+        width: 220px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 1.4em;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 768px) {
+    .avatars-3 .avatar-3 img{
+        width: 200px;
+    }
+
+    .third-avatar .avatars-3{
+        gap: 40px;
+    }
+
+    .avatars-3 .avatar-3 h3{
+        font-size: 1em;
+    }
+
+    .third-avatar .makers-avatar-all .makers-text h3{
+        font-size: 1.3em;
+    }
+
+    .third-avatar .makers-avatar-all .makers-text h5{
+        font-size: 0.9em;
+    }
+
+    .third-avatar .makers-avatar-all .makers-avatar img{
+        width: 220px;
+    }
+}
+@media screen and (max-width: 1100px) and (min-height: 600px) {
+    .avatars-3{
+        gap: 80px;
+        margin-bottom: -70px;
+    }   
+
+    .avatars-3 .avatar-3 h3{
+        font-size: 0.9em;
+    }
+
+    .avatars-3 .avatar-3 img{
+        width: 180px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 1.2em;
+    }
+
+    .makers-avatar-all .makers-avatar img{
+        width: 180px;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 0.8em;
+    }
+
+    .makers-avatar-all .makers-text .sub-head{
+        width: 80%;
+    }
+}
+
+/* @media only screen and (max-width: 1090px) and (min-height: 2400px) {
+    .avatars-3 .avatar-3 img{
+        width: 250px;
+    }
+
+    .third-avatar .makers-avatar-all .makers-avatar img{
+        width: 240px;
+    }
+
+    .third-avatar .makers-avatar-all .makers-text h3{
+        font-size: 2em;
+    }
+
+    .third-avatar .makers-avatar-all .makers-text h5{
+        font-size: 1.1em;
+    }
+} */
+
+@media screen and (max-width: 1000px) {
+    .makers-text .desc{
+        width: 15vw;
+    }
+    .avatars-3{
+        margin-bottom: 0px;
+    }
+
+    #bg-images2 img{
+        height: 100%;
+    }
+
+    #bg-images2{
+        top: 15%;
+    }
+    .avatar-3 img{
+        width: 220px;
+    }
+
+    .avatar-3 h3{
+        font-size: 1em;
+    }
+
+    .avatars-3{
+        gap: 20px;
+    }
+
+    .makers-avatar-all .makers-text h3{
+        font-size: 1em;
+    }
+
+    .makers-avatar-all .makers-text h5{
+        font-size: 0.95em;
+    }
+
+    .makers-avatar-all .sub-head{
+        width: 150px;
+    }
+    .makers-avatar-all .makers-avatar img{
+        margin-left: -20px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #bg-images2{
+        top: 0%;
+    }
+    .third-avatar{
+        padding-bottom: 40px;
+    }
+
+    .third-title{
+        padding-top: 0px;
+    }
+
+    .third-avatar h1{
+        font-size: 6vw;
+        letter-spacing: 0px;
+    }
+
+    .third-avatar .avatars-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 0;
+        gap: 0px;
+    }
+
+    .avatars-3 .avatar-3{
+        width: 23vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .avatars-3 .avatar-3 img{
+        width: 23vw;
+    }
+
+    .avatars-3 .avatar-3 h3{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    .makers-avatar-all .makers-avatar{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #left-makers-1 img, #right-makers-1 img{
+        width: 23vw;
+        margin-left: 0;
+    }
+
+
+    #left-makers-1 .heads, #right-makers-1 .heads{
+        font-size: 0.7em;
+    }
+
+    #left-makers-1 .sub-head, #right-makers-1 .sub-head{
+        font-size: 0.7em;
+        padding: 3px;
+        width: 100%;
+    }
+
+    #left-makers-1 h5, #right-makers-1 h5{
+        font-size: 0.6em;
+        letter-spacing: -1px;
+    }
+
+    .third-avatar .makers-avatar-all{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .makers-avatar .desc{
+        /* width: 20vw;
+        text-align: justify; */
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .avatars-3 .avatar-3 h3{
+        font-size: 0.6em;
+    }
+
+}
